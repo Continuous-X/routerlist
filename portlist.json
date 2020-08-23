@@ -1,0 +1,196 @@
+{
+  "portlist": [
+    {
+      "FTP-Data": {
+        "ports": ["20"],
+        "description": "Dateitransfer (Datentransfer vom Server zum Client)",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "FTP": {
+        "ports": ["21"],
+        "description": "Dateitransfer (Initiierung der Session durch Client)",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "SMTP": {
+        "ports": ["25", "587"],
+        "description": "E-Mail-Versand",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "DNS": {
+        "ports": ["53"],
+        "description": "Auflösung von Domainnamen in IP-Adressen",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "HTTP": {
+        "ports": ["80"],
+        "description": "Webserver",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "POP3": {
+        "ports": ["110"],
+        "description": "E-Mail-Abholung",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "NTP": {
+        "ports": ["123"],
+        "description": "Network Time Protocol (Protokoll zur Zeitübermittlung)",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "IMAP": {
+        "ports": ["143"],
+        "description": "E-Mail-Zugriff und -Verwaltung",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "SNMP": {
+        "ports": ["161"],
+        "description": "Simple Network Management Protocol",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "HTTPS": {
+        "ports": ["443"],
+        "description": "Webserver mit SSL-Verschlüsselung",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "IMAPS": {
+        "ports": ["993"],
+        "description": "IMAP mit SSL-Verschlüsselung",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "POP3S": {
+        "ports": ["995"],
+        "description": "POP3 mit SSL-Verschlüsselung",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "MSN Messenger": {
+        "ports": ["1863"],
+        "description": "MSN Instant Messaging",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "Windows Remote Desktop": {
+        "ports": ["3389"],
+        "description": "Windows Remote Desktop",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "VoIP": {
+        "ports": ["3478"],
+        "description": "Internet-Telefonie",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "eMule TCP": {
+        "ports": ["4662"],
+        "description": "eMule (TCP Port)",
+        "TCP": true,
+        "UDP": false
+      }
+    },
+    {
+      "eMule UDP": {
+        "ports": ["4672"],
+        "description": "eMule (USP Port)",
+        "TCP": false,
+        "UDP": true
+      }
+    },
+    {
+      "YIM": {
+        "ports": ["5050"],
+        "description": "Yahoo! Instant Messaging",
+        "TCP": true,
+        "UDP": false
+      }
+    },
+    {
+      "SIP": {
+        "ports": ["5060"],
+        "description": "SIP VoIP-Telefonie (bei Bedarf folgende)",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "VoIP UDP": {
+        "ports": ["5070","5071","5072","5073","5074","5075","5076","5077","5078","5079","30000","30001","30002","30003","30004","30005","30006","30007","30008","30009","30010","30011","30012","30013","30014","30015","30016","30017","30018","30019"],
+        "description": "Internet-Telefonie",
+        "TCP": true,
+        "UDP": false
+      }
+    },
+    {
+      "ICQ": {
+        "ports": ["5190"],
+        "description": "ICQ Instant Messaging",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "Warcraft 3": {
+        "ports": ["6112"],
+        "description": "Warcraft 3 Gameport (Battle.net)",
+        "TCP": true,
+        "UDP": true
+      }
+    },
+    {
+      "IRC": {
+        "ports": ["6665","6666","6667","6668","6669"],
+        "description": "Internet Relay Chat",
+        "TCP": true,
+        "UDP": false
+      }
+    },
+    {
+      "TeamSpeak": {
+        "ports": ["8767"],
+        "description": "TeamSpeak Voice Chat",
+        "TCP": false,
+        "UDP": true
+      }
+    }
+  ]
+}
