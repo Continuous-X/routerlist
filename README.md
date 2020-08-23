@@ -29,7 +29,9 @@ router collection for automations
     {
       "servicename": {
         "ports": ["80"],
-        "description": "service description"
+        "description": "service description",
+        "TCP": true,
+        "UDP": true
       }
     }
   ]
