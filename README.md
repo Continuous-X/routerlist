@@ -1,5 +1,5 @@
 # routerlist
-router collection for automations
+router and port collection for automations
 
 ## Format router list
 
