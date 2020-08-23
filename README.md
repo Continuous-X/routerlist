@@ -28,7 +28,7 @@ router collection for automations
   "portlist": [
     {
       "servicename": {
-        "ports": ["80"],
+        "ports": ["12345"],
         "description": "service description",
         "TCP": true,
         "UDP": true
